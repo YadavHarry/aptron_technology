@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Aptron Technology</title>
+    <link rel="stylesheet" href="css/style_gallery.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                 <img src="images/newAptronLogo1.png" alt="Next Gen Robotics Logo" style="height: 50px; vertical-align: middle;">
+                <span>Aptron Technology</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <p>Explore Our Projects, Facilities, and Student Success Stories</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="projects">Student Projects</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+                <button class="filter-btn" data-filter="kits">DIY Kits</button>
+                <button class="filter-btn" data-filter="pcb">PCB Manufacturing</button>
+                <button class="filter-btn" data-filter="events">Events & Workshops</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Student Projects -->
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/PR1.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Line Following Robot</h4>
+                                <p>Student-built autonomous robot with sensor integration</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/STP_4.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Smart Home System</h4>
+                                <p>IoT-based home automation project with mobile app</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/PR3.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Health Monitoring Device</h4>
+                                <p>Wearable health tracker with real-time data transmission</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="projects">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/PR6.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Autonomous Vehicle</h4>
+                                <p>Self-driving car prototype with computer vision</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Facilities -->
+                <div class="gallery-item" data-category="facilities">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                             <img src="images/AWA4.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Electronics Laboratory</h4>
+                                <p>State-of-the-art lab with modern equipment and tools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="facilities">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/TES1.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Computer Lab</h4>
+                                <p>Dedicated programming and simulation workspace</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="facilities">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/TR2.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Workshop Area</h4>
+                                <p>Hands-on assembly and testing workspace</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="facilities">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/TR1.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Training Rooms</h4>
+                                <p>Interactive classrooms with modern presentation systems</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DIY Kits -->
+                <div class="gallery-item" data-category="kits">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/KIT1.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Arduino Starter Kit</h4>
+                                <p>Complete beginner-friendly microcontroller kit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="kits">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/KIT2.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>IoT Development Kit</h4>
+                                <p>Internet of Things projects with cloud connectivity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="kits">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/KIT3.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Robotics Platform</h4>
+                                <p>Advanced robotics development and testing platform</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="kits">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/KIT4.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Power Electronics Kit</h4>
+                                <p>Comprehensive power supply and regulation trainer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PCB Manufacturing -->
+                <div class="gallery-item" data-category="pcb">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/PCB1.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>PCB Production Line</h4>
+                                <p>Modern manufacturing equipment and processes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="pcb">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/PCB2.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Quality Control</h4>
+                                <p>Precision testing and inspection procedures</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="pcb">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                           <img src="images/PCBD1.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Multi-layer PCBs</h4>
+                                <p>Complex circuit boards with multiple layers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="pcb">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/PCBD5.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Precision Assembly</h4>
+                                <p>High-precision component placement and soldering</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events & Workshops -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/WORK1.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Technical Workshop</h4>
+                                <p>Hands-on training session with industry experts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/WKS1.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Project Competition</h4>
+                                <p>Annual student project showcase and competition</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/WS3.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Graduation Ceremony</h4>
+                                <p>Celebrating successful completion of programs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <img src="images/WS2.jpg" alt="Line Following Robot" class="image-placeholder">
+                            <div class="overlay">
+                                <h4>Industry Collaboration</h4>
+                                <p>Partnership events with leading tech companies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The internship program at Aptron Technology completely transformed my understanding of
+                            electronics. The hands-on projects and expert guidance helped me land my dream job!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Priya Sharma</h4>
+                            <p>Electronics Engineering Graduate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The DIY kits are incredibly well-designed and educational. They made learning complex
+                            concepts so much easier and more enjoyable. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Rahul Patel</h4>
+                            <p>Electrical Engineering Student</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Working on real PCB projects during my internship gave me invaluable industry experience.
+                            The mentorship and learning environment are exceptional."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sneha Reddy</h4>
+                            <p>Electronics Intern</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Create Your Own Success Story?</h2>
+                <p>Join our programs and become part of our growing community of successful engineers</p>
+                <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/newAptronLogo1.png" alt="Next Gen Robotics Logo" style="height: 60px; vertical-align: middle;"> 
+                        <span>APTRON TECHNOLOGY</span>
+                    </div>
+                    <p>Empowering the next generation of electronics and electrical engineers through innovative training and quality manufacturing.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Electronics Internships</li>
+                        <li>Electrical Training</li>
+                        <li>PCB Manufacturing</li>
+                        <li>DIY Project Kits</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i>aptrontech@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +91 7020338936</p>
+                        <p><i class="fas fa-map-marker-alt"></i> P-6, NEAR DIC OFFICE, OLD MIDC, SATARA-415004 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 APTRON TECHNOLOGY. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <div class="lightbox-image">
+                <img id="lightbox-img" src="" alt="Project Image"
+                    style="max-width: 100%; max-height: 100%; border-radius: 10px;">
+            </div>
+            <div class="lightbox-info">
+                <h3 id="lightbox-title">Project Title</h3>
+                <p id="lightbox-description">Project description goes here...</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Script add here -->
+    <script src="js/script_gallery.js"></script>
+
+
+
+</body>
+
+</html>
